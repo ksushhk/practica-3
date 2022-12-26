@@ -1,0 +1,241 @@
+body{
+	background-color: #212226;
+}
+header{
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	top: 10px;
+	margin-left: 35px;
+}
+.header__conteiner{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 25px;
+	padding-right: 25px;
+	width: 1200px;
+	height: 50px;
+	background-color: #303136;
+	border-radius: 5px;
+}
+.header__navigation span{
+	color: #BABBBF;
+	font-family: Montserrat-ExtraLight;
+	padding: 5px;
+}
+main{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-right: 37px;
+	padding-left: 37px;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+.sidebar__navigation{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	border-radius: 5px;
+	width: 150px;
+	height: 240px;
+	background-color: #303136;
+}
+.sidebar__block{
+	width: 130px;
+	height: 200px;
+	background-color: #BABBBF;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.main__content{
+	display: flex;
+	flex-direction: column;
+}
+.main__section1{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 5px;
+	width: 1060px;
+	height: 450px;
+	background-color: #5f5b57;
+}
+.main__aside img{
+	border-radius: 5px;
+}
+.main__text{
+	width: 600px;
+	font-size: 20px;
+	color: #BABBBF;
+}
+
+.main__section2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	border-radius: 5px;
+	width: 1060px;
+	height: 350px;
+	background-color: #BABBBF;
+}
+.main__block{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 25px;
+	width: 250px;
+	height: 300px;
+	background-color: #303136;
+	border-radius: 5px;
+}
+.main__block span{
+	color: #BABBBF;
+	margin-top: 10px;
+	font-family: Montserrat-ExtraBold;
+}
+.main__block p{
+	text-align: center;
+	margin-top: 10px;
+	font-family: Montserrat-Medium;
+	color: #BABBBF;
+}
+.button{
+	text-decoration: none;
+	background-color: antiquewhite;
+	color: #212226;
+	padding: 5px;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+.button:hover{
+	color: #BABBBF;
+	background-color: #303136;
+}
+.top__block img{
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.main__section3{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	border-radius: 5px;
+	width: 1060px;
+	height: 300px;
+	background-color: #5f5b57;
+}
+.main__section3 div{
+	margin-top: 20px;
+	width: 200px;
+	height: 100px;
+	background-color: #BABBBF;
+	border-radius: 5px;
+}
+.main__section4{
+	position: relative;
+  	text-align: center;	
+	border-radius: 5px;
+	width: 1060px;
+	height: 300px;
+	background-color: #5f5b57;
+}
+.header__navigation__logo {
+	color: #505CB1;
+	font-size: large;
+	font-weight: bold;
+	font-family: Montserrat-ExtraBold;
+}
+.main__conteiner{
+	width: 200px;
+	height: 100px;
+	background-color: #BABBBF;
+	border-radius: 5px;
+}
+.bottom-left{
+	position: absolute;
+  	bottom: 8px;
+  	left: 16px;
+	width: 200px;
+	height: 100px;
+	background-color: #BABBBF;
+	border-radius: 5px;
+}
+.bottom-right{
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+	width: 200px;
+	height: 100px;
+	background-color: #BABBBF;
+	border-radius: 5px;
+}
+.centered{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 200px;
+	height: 100px;
+	background-color: #BABBBF;
+	border-radius: 5px;
+}
+.top-left{
+	position: absolute;
+	top: 8px;
+	left: 16px;
+	width: 200px;
+	height: 100px;
+	background-color: #BABBBF;
+	border-radius: 5px;
+}
+.top-right{
+	position: absolute;
+	top: 8px;
+	right: 16px;
+	width: 200px;
+	height: 100px;
+	background-color: #BABBBF;
+	border-radius: 5px;
+}
+footer{
+	display: flex;
+	margin-top: 20px;
+	margin-left: 35px;
+	margin-right: auto;
+}
+.footer__conteiner{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 25px;
+	padding-right: 25px;
+	width: 1200px;
+	height: 50px;
+	background-color: #303136;
+	border-radius: 5px;
+}
+.footer__navigation span{
+	color: #BABBBF;
+	font-family: Montserrat-ExtraLight;
+	padding: 5px;
+}
+
+@font-face {
+	font-family: Montserrat-ExtraBold;
+	src: url("../fonts/Montserrat-ExtraBold.ttf"); format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+}
+@font-face {
+	font-family: Montserrat-ExtraLight;
+	src: url("../fonts/Montserrat-ExtraLight.ttf"); format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+}
+	
